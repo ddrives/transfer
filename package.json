@@ -1,0 +1,30 @@
+{
+  "name": "@ddrive/transfer",
+  "version": "0.1.1",
+  "description": "Library For Transferring and Importing Files Into a dDrive.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test && standard"
+  },
+  "dependencies": {
+    "@dwcore/channel": "dwcore/channel#master",
+    "anymatch": "^1.3.0",
+    "chokidar": "^1.6.0",
+    "run-series": "^1.1.4"
+  },
+  "devDependencies": {
+    "@ddrive/core": "ddrives/core#master",
+    "@dwcore/ref": "dwcore/ref#master",
+    "memdb": "^1.3.1",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
